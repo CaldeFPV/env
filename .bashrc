@@ -18,6 +18,8 @@ PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -
 ##app variables##
 #################
 export GIT_EDITOR=vim
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 ###########
 ##aliases##

@@ -157,3 +157,27 @@ rm .tmux-powerlinerc
 ll
 gitexit
 exit
+ls
+ll
+git status
+git add .
+git commit
+git status
+exit
+ls
+ll
+exit
+ls
+vim .tmux.conf 
+vim .bashrc 
+git status
+git add .
+ll
+exit
+ls
+ll
+vim .profile 
+cd .vim/
+ll
+ll
+exit

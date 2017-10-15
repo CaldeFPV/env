@@ -14,9 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
-:qa
 :wq
 :q
+:qa
 :wq:wq
 :wqa
 :vsplit .bashrc
@@ -97,19 +97,26 @@ $
 	#
 
 # File marks:
-'0  1  0  ~/.bashrc
-'1  20  20  ~/.bashrc
-'2  1  15  ~/.bash_profile
-'3  8  0  ~/.vim
-'4  1  7  ~/.gitignore
-'5  1  0  ~/.viminfo
-'6  9  0  ~/.bashrc
-'7  1  0  ~/.git/config
-'8  8  0  ~/.git
-'9  1  0  ~/gitcode/betaflight/src/main/fc/runtime_config.h
+'0  3  20  ~/.vim/.vimrc
+'1  126  0  ~/.vim/autoload/pathogen.vim
+'2  23  0  ~/.bashrc
+'3  1  0  ~/.tmux.conf
+'4  1  44  ~/.git/COMMIT_EDITMSG
+'5  1  0  ~/.bashrc
+'6  20  20  ~/.bashrc
+'7  1  15  ~/.bash_profile
+'8  8  0  ~/.vim
+'9  1  7  ~/.gitignore
 
 # Jumplist (newest first):
+-'  3  20  ~/.vim/.vimrc
+-'  1  0  ~/.vim/.vimrc
+-'  126  0  ~/.vim/autoload/pathogen.vim
+-'  1  0  ~/.vim/autoload/pathogen.vim
+-'  23  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  1  0  ~/.tmux.conf
+-'  1  44  ~/.git/COMMIT_EDITMSG
 -'  20  20  ~/.bashrc
 -'  1  15  ~/.bash_profile
 -'  8  0  ~/.vim
@@ -130,11 +137,10 @@ $
 -'  1  0  ~/gitcode/betaflight/src/main/main.c
 -'  1  0  ~/gitcode/inav/Makefile
 -'  1  0  ~/gitcode/dircolors-solarized/dircolors.ansi-light
--'  29  15  ~/.bashrc
+-'  31  15  ~/.bashrc
 -'  21  0  /etc/inputrc
 -'  1  0  /etc/inputrc
 -'  2  0  /etc/inputrc
--'  1  0  ~/.tmux.conf
 -'  12  0  ~/.tmux.conf
 -'  88  43  ~/.tmux.conf
 -'  1  0  ~/.tmux
@@ -202,26 +208,55 @@ $
 -'  1  0  ~/.tmux-powerlinerc
 -'  1  0  ~/.bash_logout
 -'  121  1  ~/.tmux-powerlinerc
--'  1  0  ~/.tmux-powerlinerc
--'  121  1  ~/.tmux-powerlinerc
--'  1  0  ~/.tmux-powerlinerc
--'  1  0  ~/.bash_logout
 
 # History of marks within files (newest to oldest):
 
+> ~/.vim/.vimrc
+	"	3	20
+	^	3	21
+	.	3	0
+	+	3	0
+
+> ~/.vim/autoload/pathogen.vim
+	"	126	0
+
 > ~/.bashrc
-	"	1	0
-	^	20	21
-	.	20	7
-	+	29	0
+	"	23	0
+	^	23	0
+	.	22	23
+	+	31	0
 	+	1	0
-	+	29	15
-	+	29	0
+	+	31	15
+	+	31	0
 	+	9	0
 	+	18	16
 	+	17	16
 	+	19	17
 	+	20	7
+	+	22	23
+
+> ~/.tmux.conf
+	"	1	0
+	^	88	44
+	.	88	0
+	+	99	0
+	+	1	0
+	+	8	1
+	+	9	0
+	+	10	0
+	+	11	0
+	+	89	0
+	+	88	0
+
+> ~/.profile
+	"	1	0
+
+> ~/.git/COMMIT_EDITMSG
+	"	1	44
+	^	1	45
+	.	1	44
+	+	2	0
+	+	1	44
 
 > ~/.bash_profile
 	"	1	15
@@ -281,19 +316,6 @@ $
 	"	21	0
 	.	21	0
 	+	21	0
-
-> ~/.tmux.conf
-	"	1	0
-	^	88	44
-	.	88	0
-	+	99	0
-	+	1	0
-	+	8	1
-	+	9	0
-	+	10	0
-	+	11	0
-	+	89	0
-	+	88	0
 
 > ~/.tmux
 	"	1	0
