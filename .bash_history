@@ -139,3 +139,21 @@ vim .bashrc
 exit
 ll
 exit
+ls
+ll
+git status
+git add .
+git status
+git commit
+ls
+vim .bashrc 
+git status
+git config --globale --edit
+git config --global --edit
+vim .bashrc 
+exit
+ll
+rm .tmux-powerlinerc 
+ll
+gitexit
+exit

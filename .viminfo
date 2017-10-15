@@ -14,9 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-:wq
 :qa
+:wq
+:q
 :wq:wq
 :wqa
 :vsplit .bashrc
@@ -98,18 +98,19 @@ $
 
 # File marks:
 '0  1  0  ~/.bashrc
-'1  1  15  ~/.bash_profile
-'2  8  0  ~/.vim
-'3  1  7  ~/.gitignore
-'4  1  0  ~/.viminfo
-'5  9  0  ~/.bashrc
-'6  1  0  ~/.git/config
-'7  8  0  ~/.git
-'8  1  0  ~/gitcode/betaflight/src/main/fc/runtime_config.h
-'9  134  0  ~/gitcode/cmd-colors-solarized/README.md
+'1  20  20  ~/.bashrc
+'2  1  15  ~/.bash_profile
+'3  8  0  ~/.vim
+'4  1  7  ~/.gitignore
+'5  1  0  ~/.viminfo
+'6  9  0  ~/.bashrc
+'7  1  0  ~/.git/config
+'8  8  0  ~/.git
+'9  1  0  ~/gitcode/betaflight/src/main/fc/runtime_config.h
 
 # Jumplist (newest first):
 -'  1  0  ~/.bashrc
+-'  20  20  ~/.bashrc
 -'  1  15  ~/.bash_profile
 -'  8  0  ~/.vim
 -'  1  7  ~/.gitignore
@@ -129,7 +130,7 @@ $
 -'  1  0  ~/gitcode/betaflight/src/main/main.c
 -'  1  0  ~/gitcode/inav/Makefile
 -'  1  0  ~/gitcode/dircolors-solarized/dircolors.ansi-light
--'  24  15  ~/.bashrc
+-'  29  15  ~/.bashrc
 -'  21  0  /etc/inputrc
 -'  1  0  /etc/inputrc
 -'  2  0  /etc/inputrc
@@ -205,18 +206,22 @@ $
 -'  121  1  ~/.tmux-powerlinerc
 -'  1  0  ~/.tmux-powerlinerc
 -'  1  0  ~/.bash_logout
--'  121  1  ~/.tmux-powerlinerc
 
 # History of marks within files (newest to oldest):
 
 > ~/.bashrc
 	"	1	0
-	.	9	0
-	+	24	0
+	^	20	21
+	.	20	7
+	+	29	0
 	+	1	0
-	+	24	15
-	+	24	0
+	+	29	15
+	+	29	0
 	+	9	0
+	+	18	16
+	+	17	16
+	+	19	17
+	+	20	7
 
 > ~/.bash_profile
 	"	1	15
