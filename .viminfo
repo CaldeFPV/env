@@ -10,9 +10,12 @@
 # Last Search Pattern:
 ~MSle0~/bell-style
 
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
 :qa
 :wq:wq
 :wqa
@@ -27,6 +30,7 @@
 :w
 
 # Search String History (newest to oldest):
+? @$
 ?/bell-style
 ?/Install
 
@@ -37,39 +41,17 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	#### COLOUR (Solarized light)
+""0	CHAR	0
+	#
+"1	LINE	0
 	
-	# default statusbar colors
-	set-option -g status-bg white #base2
-	set-option -g status-fg yellow #yellow
-	set-option -g status-attr default
-	
-	# default window title colors
-	set-window-option -g window-status-fg brightyellow #base00
-	set-window-option -g window-status-bg default
-	#set-window-option -g window-status-attr dim
-	
-	# active window title colors
-	set-window-option -g window-status-current-fg brightred #orange
-	set-window-option -g window-status-current-bg default
-	#set-window-option -g window-status-current-attr bright
-	
-	# pane border
-	set-option -g pane-border-fg white #base2
-	set-option -g pane-active-border-fg brightcyan #base1
-	
-	# message text
-	set-option -g message-bg white #base2
-	set-option -g message-fg brightred #orange
-	
-	# pane number display
-	set-option -g display-panes-active-colour blue #blue
-	set-option -g display-panes-colour brightred #orange
-	
-	# clock
-	set-window-option -g clock-mode-colour green #green
-""1	CHAR	0
+"2	LINE	0
+	xport LS_COLORS
+"3	CHAR	0
+	1317
+<LS_COLORS='rs=0:di=1;35:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';
+	e
+"4	CHAR	0
 	# .bash_profile
 	
 	##################
@@ -93,7 +75,7 @@
 	alias ll='ls -alhF --time-style long-iso --color'
 	
 	alias vi=vim
-"2	CHAR	0
+"5	CHAR	0
 	if [ -e /home/smccaffr/.bash_profile ]
 	then
 	    . /home/smccaffr/.bash_profile
@@ -103,41 +85,41 @@
 	fi
 	
 	
-"3	LINE	0
-	export EDITOR=~/usr/bin/vim
-"4	LINE	0
-	
-"5	LINE	0
-	
 "6	LINE	0
-	
+	export EDITOR=~/usr/bin/vim
 "7	LINE	0
-	alias vimdiff=~/usr/bin/vimdiff
+	
 "8	LINE	0
-	alias vim=~/usr/bin/vim
+	
 "9	LINE	0
-	xport ORACLE_SID=ORAKNTLA
+	
 "-	CHAR	0
-	 
+	#
 
 # File marks:
-'0  1  6  ~/.gitignore
-'1  1  0  ~/gitcode/betaflight/src/main/fc/runtime_config.h
-'2  134  0  ~/gitcode/cmd-colors-solarized/README.md
-'3  1  0  ~/.bashrc
-'4  122  0  ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.c
-'5  1  0  ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.h
-'6  1  0  ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.
-'7  49  13  ~/gitcode/betaflight/src/main/fc/config.h
-'8  1  0  ~/gitcode/betaflight/src/main/main.c
-'9  1  0  ~/gitcode/inav/Makefile
+'0  1  0  ~/.bashrc
+'1  1  15  ~/.bash_profile
+'2  8  0  ~/.vim
+'3  1  7  ~/.gitignore
+'4  1  0  ~/.viminfo
+'5  9  0  ~/.bashrc
+'6  1  0  ~/.git/config
+'7  8  0  ~/.git
+'8  1  0  ~/gitcode/betaflight/src/main/fc/runtime_config.h
+'9  134  0  ~/gitcode/cmd-colors-solarized/README.md
 
 # Jumplist (newest first):
--'  1  6  ~/.gitignore
+-'  1  0  ~/.bashrc
+-'  1  15  ~/.bash_profile
+-'  8  0  ~/.vim
+-'  1  7  ~/.gitignore
+-'  1  0  ~/.viminfo
+-'  9  0  ~/.bashrc
+-'  1  0  ~/.git/config
+-'  8  0  ~/.git
 -'  1  0  ~/gitcode/betaflight/src/main/fc/runtime_config.h
 -'  134  0  ~/gitcode/cmd-colors-solarized/README.md
 -'  1  0  ~/gitcode/cmd-colors-solarized/README.md
--'  1  0  ~/.bashrc
 -'  122  0  ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.c
 -'  1  0  ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.c
 -'  1  0  ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.h
@@ -147,8 +129,7 @@
 -'  1  0  ~/gitcode/betaflight/src/main/main.c
 -'  1  0  ~/gitcode/inav/Makefile
 -'  1  0  ~/gitcode/dircolors-solarized/dircolors.ansi-light
--'  26  15  ~/.bashrc
--'  1  0  ~/.bash_profile
+-'  24  15  ~/.bashrc
 -'  21  0  /etc/inputrc
 -'  1  0  /etc/inputrc
 -'  2  0  /etc/inputrc
@@ -225,34 +206,50 @@
 -'  1  0  ~/.tmux-powerlinerc
 -'  1  0  ~/.bash_logout
 -'  121  1  ~/.tmux-powerlinerc
--'  1  0  ~/.tmux-powerlinerc
--'  121  1  ~/.tmux-powerlinerc
--'  1  0  ~/.tmux-powerlinerc
--'  1  0  ~/.bash_logout
--'  121  1  ~/.tmux-powerlinerc
--'  1  0  ~/.tmux-powerlinerc
 
 # History of marks within files (newest to oldest):
 
+> ~/.bashrc
+	"	1	0
+	.	9	0
+	+	24	0
+	+	1	0
+	+	24	15
+	+	24	0
+	+	9	0
+
+> ~/.bash_profile
+	"	1	15
+	^	1	16
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+
 > ~/.gitignore
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/.viminfo
+	"	1	0
+
+> ~/.git/config
+	"	1	0
 
 > ~/gitcode/betaflight/src/main/fc/runtime_config.h
 	"	1	0
 
 > ~/gitcode/cmd-colors-solarized/README.md
 	"	134	0
-
-> ~/.bashrc
-	"	1	0
-	^	26	16
-	.	26	15
-	+	27	0
-	+	1	0
-	+	26	15
 
 > ~/gitcode/betaflight/src/main/osd_slave/osd_slave_init.c
 	"	122	0
@@ -274,19 +271,6 @@
 
 > ~/gitcode/dircolors-solarized/dircolors.ansi-light
 	"	1	0
-
-> ~/.bash_profile
-	"	1	0
-	.	2	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	2	0
-	+	2	0
-	+	2	0
-	+	1	0
-	+	2	0
 
 > /etc/inputrc
 	"	21	0
