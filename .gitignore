@@ -1,4 +1,7 @@
-.bash_history
-.viminfo
 gitcode
-./vim/.netrwhist
+MySite
+.bash_history
+.ssh
+.vim/.netrwhist
+.viminfo
+.wget-hsts
