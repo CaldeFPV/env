@@ -13,6 +13,8 @@ export SIMPLENAME=`hostname`
 export PS1="\[$(tput bold)\]\[$(tput setaf 2)\][\u@\h \W]\\$ \[$(tput sgr0)\]"
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
+#I read this will disable bell in vim
+setterm -blength 0
 
 #################
 ##app variables##
@@ -27,4 +29,6 @@ export EDITOR="$VISUAL"
 alias ls='ls -F --color'
 alias ll='ls -alhF --time-style long-iso --color'
 
+alias cb='cd /var/www/html/'
+alias cs='cd ~/MySite'
 alias vi=vim
